@@ -27,10 +27,10 @@ function Highlights() {
           <h1 id="title" className="section-heading">Get the highlights.</h1>
           <div className="flex flex-wrap items-end gap-5">
             <p className="link">Watch the film
-              <Image src={watchImg} alt="watch" width={20} height={20} className="ml-2"/>
+              <Image src={watchImg} alt="watch" width={20} height={20} className="ml-2 h-auto w-auto"/>
             </p>
             <p className="link">Watch the Event
-              <Image src={rightImg} alt="right" width={10} height={10} className="ml-2"/>
+              <Image src={rightImg} alt="right" width={10} height={10} className="ml-2 h-auto w-auto"/>
             </p>
           </div>
         </div>

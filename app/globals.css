@@ -12,6 +12,9 @@
 * {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   color: white;
@@ -21,7 +24,6 @@ body {
   background: #000;
   border-color: #3b3b3b;
   user-select: none;
-  scroll-behavior: smooth;
 }
 
 canvas {

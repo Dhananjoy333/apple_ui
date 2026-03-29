@@ -182,7 +182,7 @@ const VideoCarousel: React.FC = () => {
 
   return (
     <>
-      <div className="flex items-center">
+      <div className="flex items-center ">
         {hightlightsSlides.map((list, i) => (
           <div key={list.id} id="slider" className="sm:pr-20 pr-10">
             <div className="video-carousel_container">
@@ -190,7 +190,6 @@ const VideoCarousel: React.FC = () => {
                 <video
                   id="video"
                   playsInline={true}
-                  
                   className={`${
                     list.id === 2 && "translate-x-44"
                   } pointer-events-none`}
@@ -227,7 +226,7 @@ const VideoCarousel: React.FC = () => {
         ))}
       </div>
 
-      <div className="relative flex-center mt-10">
+      <div className="relative flex-center mt-10 ">
         <div className="flex-center py-5 px-7 bg-gray-300 backdrop-blur rounded-full">
   {hightlightsSlides.map((_, i) => (
     <span

@@ -84,8 +84,8 @@ canvas {
     @apply w-full h-full object-cover object-center scale-150 opacity-0;
   }
 
-  .feature-text-container {
-    @apply w-full flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5;
+  .feature-video-container {
+    @apply flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5;
   }
 
   .link {
